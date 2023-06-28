@@ -1,0 +1,61 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews"
+      ],
+      "~/*": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/*"
+      ],
+      "@": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews"
+      ],
+      "@/*": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/*"
+      ],
+      "~~": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews"
+      ],
+      "~~/*": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/*"
+      ],
+      "@@": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews"
+      ],
+      "@@/*": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/*"
+      ],
+      "assets": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/assets"
+      ],
+      "public": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/public"
+      ],
+      "public/*": [
+        "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/public/*"
+      ]
+    }
+  },
+  "include": [
+    "D:/Users/ratsa/Desktop/DigitalMonster/vue/DigitalOceanDigitalMonster/hackernews/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}

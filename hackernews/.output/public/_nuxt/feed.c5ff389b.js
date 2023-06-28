@@ -1,0 +1,1 @@
+import{G as s,D as a,H as d}from"./entry.719d578a.js";const t=s(e=>{if(!e.params.feed||!a.includes(e.params.feed))return d(`/${a[0]}/1`);if(!e.params.page)return d(`/${e.params.feed}/1`)});export{t as default};
